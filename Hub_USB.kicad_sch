@@ -1,0 +1,140 @@
+(kicad_sch
+	(version 20250114)
+	(generator "eeschema")
+	(generator_version "9.0")
+	(uuid "e7c03cb4-8e4b-4666-83fe-07404312d617")
+	(paper "A4")
+	(lib_symbols)
+	(sheet
+		(at 118.11 54.61)
+		(size 44.45 52.07)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "42d9d44f-e9f7-47bf-9458-b0a406bd56ac")
+		(property "Sheetname" "Connectors"
+			(at 118.11 53.8984 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "connectors.kicad_sch"
+			(at 118.11 107.2646 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "Hub_USB"
+				(path "/e7c03cb4-8e4b-4666-83fe-07404312d617"
+					(page "3")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 52.07 54.61)
+		(size 45.72 50.8)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "6a7bf862-016b-4a5a-b90e-844b9ce8f819")
+		(property "Sheetname" "Power"
+			(at 52.07 53.8984 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "power.kicad_sch"
+			(at 52.07 105.9946 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "Hub_USB"
+				(path "/e7c03cb4-8e4b-4666-83fe-07404312d617"
+					(page "2")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 190.5 55.88)
+		(size 43.18 49.53)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "e093a442-8355-44ce-af79-748c3649c570")
+		(property "Sheetname" "Core"
+			(at 190.5 55.1684 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "core.kicad_sch"
+			(at 190.5 105.9946 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "Hub_USB"
+				(path "/e7c03cb4-8e4b-4666-83fe-07404312d617"
+					(page "4")
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+	(embedded_fonts no)
+)
